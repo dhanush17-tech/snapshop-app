@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "115037874052",
+    "project_id": "princ-3f73c",
+    "storage_bucket": "princ-3f73c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115037874052:android:34a3a1e8f0b539233a1fd1",
+        "android_client_info": {
+          "package_name": "com.example.hack_princeton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115037874052-mrn43f1d1hbbe9dk5j9qoji355q1f311.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hack_princeton",
+            "certificate_hash": "688729cff18299801f5987a6aa78fef14a5dc497"
+          }
+        },
+        {
+          "client_id": "115037874052-90usudor58mmph3n75g8sje2rejlk5gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHsoQCwZVOmLvuOnC_MZxDzFSihM_PwEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115037874052-90usudor58mmph3n75g8sje2rejlk5gk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "115037874052-do51ju0gokn2eas5ple4udc6uspikmi0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hackPrinceton.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

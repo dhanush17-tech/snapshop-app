@@ -1,0 +1,84 @@
+
+  // void receiveMessage(String text, AiChatModel? aiResponse,
+  //     {bool isAi = false}) {
+  //   setState(() {
+  //     if (_isUploading) {
+  //       // If uploading, add a loading message
+  //       messages.add(LoadingMessage());
+  //     }
+  //   });
+  //   ChatModel newMessage;
+  //   if (isAi) {
+  //     http
+  //         .post(
+  //       Uri(
+  //         scheme: "https",
+  //         host: "hackprinceton-dhravya.up.railway.app",
+  //         path: "/fashion_sense_test",
+  //       ),
+  //       body: jsonEncode({
+  //         "original_image": "just for testing",
+  //         "user_email": "your@mom.com",
+  //       }),
+  //     )
+  //         .then((value) {
+  //       newMessage = ChatModel(
+  //         isAi: isAi,
+  //         file: File(text),
+  //         aiResponse:
+  //             aiResponse ?? AiChatModel.fromJson(jsonDecode(value.body)),
+  //         time: DateTime.now().toIso8601String(),
+  //       );
+  //       setState(() {
+  //         messages.insert(0, newMessage);
+  //         _isUploading = false;
+  //       });
+  //     });
+  //   } else {
+  //     newMessage = ChatModel(
+  //       isAi: isAi,
+  //       file: File(text),
+  //       aiResponse: aiResponse ??
+  //           AiChatModel(
+  //             comment: "",
+  //             styleName: '',
+  //             fashionItemsAsKeywords: [],
+  //             image: "",
+  //           ),
+  //       time: DateTime.now().toIso8601String(),
+  //     );
+
+  //     setState(() {
+  //       messages.insert(0, newMessage);
+  //     });
+  //   }
+
+  //   // Create an animation for the new message
+  //   _latestMessageAnimation = Tween<double>(begin: 0, end: 1).animate(
+  //     CurvedAnimation(parent: _animationController, curve: Curves.easeOut),
+  //   );
+
+  //   _animationController.reset();
+  //   _animationController.forward();
+
+  //   // Trigger the animation when a new message is received
+  //   _animationController.forward();
+
+  //   // Update the AnimatedList
+  //   setState(() {
+  //     listKey.currentState?.insertItem(0);
+  //   });
+  // }
+
+
+     // Replace the URL and body with your actual values
+      // http
+      //     .post(
+      //   Uri.parse(
+      //       "https://hackprinceton-dhravya.up.railway.app/fashion_sense_test"),
+      //   headers: {"Content-Type": "application/json"},
+      //   body: jsonEncode({
+      //     "original_image": "just for testing",
+      //     "user_email": "your@mom.com"
+      //   }), // Body is encoded as a JSON string
+      // )
